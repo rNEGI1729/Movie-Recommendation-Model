@@ -17,17 +17,6 @@ Numpy
 Scikit-learn
 Streamlit
 Pickle (for loading pre-saved similarity matrices)
-# Steps
-1.Clone the repository:
-git clone https://github.com/username/Movie-Recommender-System.git
-cd Movie-Recommender-System
-2.Install the required dependencies:
-pip install -r requirements.txt
-3.Run the Streamlit app:
-streamlit run app.py
-4.Open your browser and go to http://localhost:8501 to access the recommender system.
-#Data
-The recommender system uses a dataset containing movie details such as title, genre, and metadata. The similarity between movies is pre-computed and stored in two parts (similarity_part1.pkl and similarity_part2.pkl), which are loaded into the system during runtime to calculate movie recommendations.
 
 # Usage
 To get movie recommendations:
