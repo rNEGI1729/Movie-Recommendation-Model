@@ -2,7 +2,7 @@
 # Overview
 This repository contains the code for a Movie Recommender System built using Python and machine learning techniques. The recommender system suggests movies to users based on their similarity to other movies. This project demonstrates how to process a dataset of movies and build a recommendation engine using a combination of techniques like cosine similarity.
 
-Features
+# Features
 Movie Recommendations: The system recommends five movies based on the input movie provided by the user.
 Similarity Calculation: Utilizes cosine similarity to find movies that are most similar to the one provided.
 Streamlit App: The project has been deployed as a web app using Streamlit, providing an easy-to-use interface for users to enter a movie and receive recommendations.
@@ -10,7 +10,7 @@ Data Handling: Efficiently handles large datasets and provides fast and relevant
 Installation
 To run this project locally, you need to have Python and the necessary dependencies installed. Follow the instructions below to set up the project on your local machine.
 
-Requirements
+# Requirements
 Python 3.x
 Pandas
 Numpy
@@ -29,7 +29,7 @@ streamlit run app.py
 #Data
 The recommender system uses a dataset containing movie details such as title, genre, and metadata. The similarity between movies is pre-computed and stored in two parts (similarity_part1.pkl and similarity_part2.pkl), which are loaded into the system during runtime to calculate movie recommendations.
 
-Usage
+# Usage
 To get movie recommendations:
 
 Enter the name of a movie in the search bar.
